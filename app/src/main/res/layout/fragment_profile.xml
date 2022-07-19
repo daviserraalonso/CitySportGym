@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0C0C0C"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="267dp"
+            android:src="@mipmap/logo_foreground" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F6F6"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColor="#F8F6F6"
+            android:textColorHint="#FAFAFA"
+            tools:ignore="Deprecated" />
+
+        <EditText
+            android:id="@+id/userAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FDFCFC"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Direccion"
+            android:inputType="textPersonName"
+            android:textColor="#F8F6F6"
+            android:textColorHint="#FBFBFB"
+            tools:ignore="Deprecated" />
+
+        <EditText
+            android:id="@+id/userEmailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FBFBFB"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#FAF7F7"
+            android:textColorHint="#F8F6F6"
+            tools:ignore="Deprecated" />
+
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F8F7F7"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Telefono"
+            android:inputType="number"
+            android:textColor="#FBFAFA"
+            android:textColorHint="#FDFCFC"
+            tools:ignore="Deprecated" />
+
+        <EditText
+            android:id="@+id/userPasswordEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FAF8F8"
+            android:editable="true"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#FDFCFC"
+            android:textColorHint="#FAF7F7"
+            tools:ignore="Deprecated" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="16dp"
+            android:background="#BA0606"
+            android:backgroundTint="#A80707"
+            android:text="Cambiar" />
+
+    </LinearLayout>
+</FrameLayout>
